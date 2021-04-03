@@ -1,0 +1,15 @@
+.agent-no-task{
+    font-style: italic;
+}
+.agent-no-task h2{
+    font-size: 1em;
+}
+.no-task-picture img{
+    width:200px;
+    height:auto;
+}
+.agent-no-task-image-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

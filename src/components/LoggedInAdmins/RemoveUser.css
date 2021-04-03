@@ -1,0 +1,31 @@
+
+.admin-page-contents-for-user{
+}
+.admin-manage-heading-for-user{
+
+}
+.admin-manage-heading-text-for-user{
+    font-size: 5.5vh;
+    color:rgb(39,10,10);
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+
+.user-cards-list{
+    margin-top: 1vw;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    gap:1em;
+    flex-direction: column;
+   
+  
+}
+@media only screen and (max-width: 600px) {
+    .admin-page-contents-for-user{
+
+    }
+    .user-cards-list {
+    }
+}

@@ -1,0 +1,8 @@
+.agent-profile-container{
+    font-family: 'Merriweather Sans'  ;
+    font-size: 1em;
+    display:flex;
+    flex-direction: column;
+    gap:5vh;
+    align-items: flex-start;
+}

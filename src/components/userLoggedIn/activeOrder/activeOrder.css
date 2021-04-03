@@ -1,0 +1,14 @@
+.active-order-container{
+display:flex;
+flex-direction: column;
+gap:2em;
+align-items: center;
+}
+.active-order-header{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgba(75, 36, 24, 0.96);
+}

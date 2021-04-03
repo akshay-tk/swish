@@ -1,0 +1,182 @@
+.side-nav-bar-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index:2;  
+    align-items: flex-end;
+    height:100%;
+    width: 26vw;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
+
+.admin-profile-pic-and-name{
+    margin-top: 15vh;
+    margin-left:10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-profile-pic{
+    background: url('/src/resources/admin-new.png');
+    background-repeat: no-repeat;
+    height:20vh;
+    width: 20vw;
+    margin-top:7vh;
+    margin-left:2vw;
+   
+}
+.admin-profile-name{
+ 
+    font-family: "Merriweather";
+    color:white;
+    text-decoration: none;
+    margin-bottom: 5vh;
+
+}
+
+.admin-sidebar-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh; 
+}
+
+.admin-sidebar-link-text{
+    font-family: "Merriweather";
+    padding-top: 2vh;
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-right: 5vw;
+    text-decoration: none ;
+    color:white;
+}
+/* .admin-burger-menu{
+
+} */
+.side-nav-bar-container .closebutton{
+    display: none; 
+}
+
+/* responsive for phone */
+ @media only screen and (max-width: 600px) {
+    
+/*    
+    .side-nav-bar-container{
+        position: relative;
+        flex-direction: column;
+        position: absolute;
+        z-index:3;
+        margin-top:0vh;
+        padding-left: 1vw;
+        align-items: center;
+        height:100%;
+        width: 0;
+        background-color: black;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2vw;
+        transition: 0.5s;
+
+    }
+    
+    .admin-profile-pic-and-name{
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .admin-profile-pic{
+        background-image: url('/src/resources/admin-new.png');
+        background-repeat: no-repeat;
+        margin-top: 2vh;
+        margin-left: 4vw;
+        height:10vh;
+        width: 18vw;
+        display: none;
+     
+    }
+   .admin-profile-name{
+        margin-left: 2.5vw;
+        margin-bottom: 1vh;
+        font-size: 2em;
+        font-family: "Merriweather";
+        color:white;
+        text-decoration: none;
+    } */
+    
+    /* .admin-sidebar-links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1vh;
+        
+    }
+    
+    .admin-sidebar-link-text{
+        font-family: "Merr  iweather";
+        padding-top: 2vh;
+        font-size: 1vh;
+        margin-top: 2vh;
+        text-decoration: none ;
+    } */
+   
+    .side-nav-bar-container .closebutton {
+        position: absolute;
+        top: 0.2em;
+        display:block;
+        z-index:5;
+        right: 5px;
+        font-size: 36px;
+        margin-left: 50px;
+        background-color: #111;
+        box-shadow:none;
+        border:none;
+      }
+
+    .side-nav-bar-container .closebutton img{
+        position: absolute;
+        top: 0.2em;
+        right: 5px;
+        font-size: 36px;
+        margin-left: 0;
+      }
+      #admin-burger-menu{
+        padding-top: 12vh;
+        width: 20vw;
+        margin-left: 4%;
+      }
+      #admin-burger-menu-button{
+        width:50px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        height:50px;
+        text-align: center;
+        background-color: rgb(39, 10, 10);
+        border:none;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+    .fa{
+      width: 60%;
+      color:white;
+    }
+    .admin-profile-name{
+        margin-right:34vw;
+    }
+    .admin-profile-name{
+        /* margin-right:34vw; */
+        font-size:2.5em;
+    }
+    .admin-sidebar-link-text{
+        margin-right:20vw;
+    }
+    .admin-profile-pic{
+        width: 50%;
+    }
+    #adminSideNav{
+        width: 0;
+    }
+   
+  } 

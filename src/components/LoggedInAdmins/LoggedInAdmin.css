@@ -1,0 +1,143 @@
+.logged-in-admin-wrapper{
+    overflow-x: hidden;
+    display:grid;
+    grid-template-columns: 30vw 70vw;
+    height:100vh;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    justify-content: center;
+    align-items: flex-start;
+}
+.admin-page-contents-main1{
+ 
+}
+.admin-page-contents1{
+ 
+ 
+}
+.admin-manage-heading1{
+
+}
+.admin-manage-heading-text1{
+    font-size: 5.5vh;
+    color: rgb(39, 10, 10);
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.admin-filter-tasks1{
+    display: flex;
+    flex-direction: row;
+
+}
+.admin-login-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+.filter-tasks-link1{
+    padding:5px 1vw;
+    border-right: none;
+    text-decoration: none;
+    font-family: "merriweather";
+    background-color: rgb(44, 13, 1);
+    color: white;
+}
+.filter-tasks-link1:hover{
+    background-color: rgb(80, 14, 4);
+}
+.filter-tasks-link1:focus{
+    background-color: rgb(255, 255, 255);
+    color:rgb(39, 10, 10);
+}
+
+
+.request-cards-list-assign1{
+    width:70vw;
+    height:50vh;
+}
+
+.request-cards-list-unassign1{
+    margin-top: 1vw;
+    width:70vw;
+    height:50vh;
+}
+
+.request-cards-scroll1{
+    overflow-y: scroll;
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.card-request-subheading1{
+    font-family: "Raleway";
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+
+/* responsive css */
+@media only screen and (max-width: 600px) {
+    .logged-in-admin-wrapper{
+        overflow-x: hidden;
+        display:grid;
+        grid-template-columns: 0vw 100vw;
+    }
+    .admin-page-contents-main1{
+        display: flex;
+        flex-direction: column;  
+     }
+     .admin-page-contents1{
+       
+     }
+     .admin-manage-heading1{
+         width:80%;
+     }
+     .admin-manage-heading-text1{
+         font-size: 1.7em;
+        text-align:center;
+         font-weight: bold;
+         font-family: "Raleway";
+     }
+     
+     .admin-filter-tasks1{
+         display: flex;
+         flex-direction: row;
+         margin-right:3vw;
+         padding-left:2vw ;    
+     }
+     .filter-tasks-link1{
+         font-size: 1em;
+         border-right: none;
+         margin-bottom: 0.5vh;
+         text-decoration: none;
+         font-family: "merriweather";
+         color: black;
+         background-color: rgb(39, 10, 10);
+         color: white;
+     }
+     .request-cards-list-assign1{
+     }
+     
+     .request-cards-list-unassign1{ 
+     }
+     .request-cards-scroll1{
+        height:70vh;
+        overflow-y: scroll;
+    }
+    
+    .card-request-subheading1{
+        font-family: "Raleway";
+        font-size: 1.5em;
+    }
+    /* @media (max-width: 600px){
+        .adminNavContainer{
+            display:none;
+        }
+    } */
+    .flex-container{
+        align-items: center;
+    }
+}

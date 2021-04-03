@@ -1,0 +1,166 @@
+.remove-agent-card {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:2%;
+    width:57vw;
+    border: 1px solid rgb(39,10,10);
+    background-color: rgb(244,244,244);
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:2vh;
+}
+
+.request-card-agentName-button {
+    border-radius: 10px;
+    width:auto;
+    height: 3em;
+    width:8em;
+    border: none;
+    background-color: rgb(39,10,10);
+    color:  white;
+}
+
+.Delete-agent-button {
+  width: 6vw;
+  height: 5vh;
+  border: none;
+  color:white;
+  background-color: rgb(150, 2, 2);
+}
+
+.agent-card-close-button {
+  margin-bottom: 20px;
+  margin-left: 23vw;
+  width: 9vw;
+  height: 5vh;
+  border: none;
+  background-color: white;
+  box-shadow: 3px 3px rgb(195, 234, 252);
+}
+
+.request-card-close-icon1{
+  background-image: url('/src/resources/go-up-icon.png');
+  background-repeat: no-repeat;
+  margin-top:1vh;
+  height: 9vh;
+  width: 8vw;
+  margin-left: 24vw;
+ border: none;
+}
+
+/* toggle css  */
+
+.my-collapsible {
+  margin-right: 10.5vw;
+}
+
+.toggle-collapsible__toggle {
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 2px 2px rgb(139, 134, 134);
+  background: transparent;
+}
+
+ /* toggle css  */
+ /* .my-collapsible {
+    margin-right:10.5vw;
+  }
+  .toggle-collapsible__toggle {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 2px 2px rgb(139, 134, 134);
+    background: transparent;
+  }
+  .toggle-collapsible__content {
+    overflow: hidden;
+    background: linear-gradient(0deg, lightgray, white);
+    margin-right: 10vw;
+    margin-bottom:1vh;
+}
+  
+  .toggle-collapsible__content-inner {
+    padding: 0.5vh;
+    min-height: 20rem;
+    _background: linear-gradient(lightblue, white);
+  }
+  
+  .number {
+    font-variant-numeric: tabular-nums;
+    min-width: 3em;
+    display: inline-block;
+    text-align: left;
+  } */
+/*toggle ends here*/
+
+  body.react-confirm-alert-body-element {
+    overflow: hidden;
+   
+  }
+  to {
+    opacity: 1;
+  }
+
+
+@-moz-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Delete-button {
+    margin-bottom: 20px;
+    margin-left: 30vw;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: rgb(150, 2, 2);
+  }
+  .request-card-task-number-button {
+    margin-bottom: 20px;
+    margin-left: 3vw;
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+    box-shadow: 3px 3px rgb(195, 234, 252);
+  }
+  .remove-agent-card {
+    margin-right: 0%;
+    width: 69vw;
+}
+.request-card-agentName-button{
+  width: 30%;
+}
+.Delete-agent-button {
+  width: 20%;
+}
+
+
+}

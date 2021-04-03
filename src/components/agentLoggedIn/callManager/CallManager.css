@@ -1,0 +1,16 @@
+.call-manager a{
+    color: green;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.call-manager{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+
+.call-manager h3{
+    padding: 0;
+}
